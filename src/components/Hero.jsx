@@ -29,13 +29,6 @@ const Hero = () => {
         },
     ];
 
-    window.addEventListener("scroll", function () {
-        const downArrow = document.querySelector(".down-arrow");
-
-        if (this.scrollY >= 90) downArrow.classList.add("hide-down-arrow");
-        else downArrow.classList.remove("hide-down-arrow");
-    })
-
     return (
         <section className='min-h-screen flex flex-col justify-start items-center p-5 text-center'>
     
@@ -66,11 +59,11 @@ const Hero = () => {
                 href={Resume} 
                 target='_blank'
                 rel='noopener noreferrer' className='flex items-center justify-center mt-10 bg-gradient-to-r from-red-600 to-teal-500 text-white py-2 rounded-lg'>Resume
-                <FaArrowRight className='text-gray-400 text-3xl
-                 animate-bounce'/>
+                <FaArrowRight className='flex ml-5 text-white text-3xl transition-transform duration-500 hover:-translate-x-4'/>
                 </a>
+                
             </div> 
-             
+            
         </section>
     );
 };
