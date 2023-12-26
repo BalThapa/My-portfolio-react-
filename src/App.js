@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,7 +14,7 @@ function App() {
       <Hero/>
       <Services/>
      </main>
-     {/* <Footer/> */}
+     <Footer/>
     </div>
   );
 }

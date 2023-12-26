@@ -1,16 +1,14 @@
 import React from 'react';
-import {} from 'react-icons/md';
+import Socials from './Socials';
 
 
 const Footer = () => {
     return (
         <footer className="bg-red-200 dark:bg-gray-900 text-gray-900 dark:text-white bottom-full">
-          <div className="flex justify-between items-center p-5">
-            <div className='flex'>
-              <h1 className="text-lg m-3">Bal Krishna</h1>
-            </div>
-            <div className='flex '>
-                
+          <div className="flex flex-col justify-between items-center ">
+            <Socials/>
+            <div className='mb-5'>
+              <small>©Copyright2023@BalKrishna</small> 
             </div>
           </div>  
         </footer>
