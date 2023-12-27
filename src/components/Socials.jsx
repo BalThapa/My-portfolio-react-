@@ -26,7 +26,7 @@ const Socials = () => {
         },
     ];
     return (
-        <div className='flex justify-evenly py-8 lg:py-16 text-3xl w-full md:w-1/3'>
+        <div className='flex justify-evenly py-6 lg:py-8 text-3xl w-full md:w-1/3'>
                 {SOCIAL.map(({id, link, icon}) => (
                    <a href={link} 
                         key={id} 
