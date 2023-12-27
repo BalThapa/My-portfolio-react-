@@ -1,8 +1,10 @@
 import { useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
+import Home from "./pages/Home";
+//import Skills from "./pages/Skills";
 import Footer from "./components/Footer";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -10,10 +12,11 @@ function App() {
   return (
     <div className={darkMode && "dark"}>
      <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
-     <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-      <Hero/>
-      <Skills/>
-     </main>
+     <BrowserRouter>
+     <Routes>
+      <Route path="/" element={<Home/>}/>
+     </Routes>
+     </BrowserRouter>
      <Footer/>
     </div>
   );
