@@ -18,6 +18,7 @@ const Footer = () => {
                    <div className='mb-5'>
               <small>©Copyright2023@BalKrishna</small> 
           </div> 
+          
         </footer>
     );
 };

@@ -7,7 +7,7 @@ import Socials from './Socials';
 const Hero = () => {
  
     return (
-        <section className='min-h-screen flex flex-col justify-start items-center p-5 text-center'>
+        <section className='h-1/2 flex flex-col justify-start items-center p-5 text-center'>
     
             <div className='mt-10'> 
             <h2 className='text-3xl uppercase font-bold text-rose-600'>Bal Krishna Thapa Chhetri</h2>
@@ -27,8 +27,11 @@ const Hero = () => {
                 <a 
                 href={Resume} 
                 target='_blank'
-                rel='noopener noreferrer' className='flex items-center justify-center mt-10 bg-gradient-to-r from-red-600 to-teal-500 text-white py-2 rounded-lg'> Resume
-                <MdArrowForward className='flex ml-5 text-white text-2xl transition-transform duration-500 hover:-translate-x-4'/>
+                rel='noopener noreferrer' className='flex items-center justify-center mt-10 bg-gradient-to-r from-red-600 to-teal-500 text-white py-2 rounded-lg'>
+                    <span className='flex items-center transition-transform duration-500 hover:translate-x-4'>
+                    Resume
+                    <MdArrowForward className=' ml-2 text-white text-2xl '/>
+                    </span> 
                 </a>
                 
             </div> 
