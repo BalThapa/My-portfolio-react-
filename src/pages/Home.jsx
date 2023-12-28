@@ -6,10 +6,9 @@ const Home = () => {
     return (
         <div>
             <main className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-      <Hero/>
-      <Content/>
-     
-     </main>
+            <Hero/>
+            <Content/>     
+            </main>
         </div>
     );
 };
