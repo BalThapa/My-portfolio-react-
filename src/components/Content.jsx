@@ -10,7 +10,7 @@ const Content = () => {
     
     return (
         <div className=' mt-10 '>
-            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold text-blue-600'>What's inside?</h1>
+            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold text-red-900'>What's inside?</h1>
         <div className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>
         <Card1
             image={About}

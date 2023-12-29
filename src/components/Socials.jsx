@@ -32,7 +32,7 @@ const Socials = () => {
                         key={id} 
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='cursor-pointer duration-300 hover:text-blue-600 ease-in-out hover:scale-110'
+                        className='cursor-pointer duration-300 hover:text-red-900 ease-in-out hover:scale-110'
                         >{icon}</a> 
                 ))}
             </div> 
