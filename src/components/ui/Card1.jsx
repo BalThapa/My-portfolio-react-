@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Card1 = ({image, title, subtitle, link}) => {
+const Card1 = ({image, title, subtitle, link, width}) => {
     
     return (
         <section className='w-80 h-100  flex flex-col items-center justify-center p-5 text-center shadow-lg dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110'>

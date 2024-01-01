@@ -6,21 +6,21 @@ import { MdClose } from 'react-icons/md';
 const Menu = () => {
     return (
         <div className='flex '>
-                <ul className='lg:flex md:flex hidden '>
+                <ul className='lg:flex md:flex hidden'>
                     <li className='mr-6 '>
-                        <a href='/'>Home</a>
+                        <a href='/' className='hover:underline hover:text-blue-900'>Home</a>
                     </li>
                     <li className='mr-6'>
-                        <a href='/about'>About</a>
+                        <a href='/about' className='hover:underline hover:text-blue-900'>About</a>
                     </li>
                     <li className='mr-6'>
-                        <a href='/skills'>Skills</a>
+                        <a href='/skills' className='hover:underline hover:text-blue-900'>Skills</a>
+                    </li>
+                    <li className='mr-6' >
+                        <a href='/projects' className='hover:underline hover:text-blue-900'>Projects</a>
                     </li>
                     <li className='mr-6'>
-                        <a href='/projects'>Projects</a>
-                    </li>
-                    <li className='mr-6'>
-                        <a href='/contact'>Contact</a>
+                        <a href='/contact' className='hover:underline hover:text-blue-900'>Contact</a>
                     </li>
                 </ul>
                 <button className='space-y-1 group md:hidden'>
