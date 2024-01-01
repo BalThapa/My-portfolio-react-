@@ -2,8 +2,13 @@ import React from 'react';
 import {MdBedtime, MdWbSunny} from 'react-icons/md';
 import Logo_dark from '../assets/Logo_dark.png';
 import Menu from './Menu';
+import { useDarkMode } from './ui/DarkModeContext';
 
-const Header = ({darkMode, setDarkMode}) => {
+const Header = () => {
+  const {darkMode, setDarkMode}= useDarkMode();
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
+  };
     return (
         <header className="bg-red-200 dark:bg-gray-900 text-gray-900 dark:text-white ">
           <nav className="flex justify-between items-center p-5">
@@ -13,7 +18,7 @@ const Header = ({darkMode, setDarkMode}) => {
             </div>
             <div className='flex gap-5'>
             <Menu/>
-            <div onClick={() => setDarkMode(!darkMode)}>
+            <div onClick={toggleDarkMode}>
               {darkMode ? (
                 <MdWbSunny className='text-2xl cursor-pointer'/>
               ):(

@@ -1,9 +1,19 @@
-import React, { createContext, useState, useContext } from 'react';
+// DarkModeContext.js
+import React, { createContext, useState, useEffect, useContext } from 'react';
 
 const DarkModeContext = createContext();
 
+export const useDarkMode = () => {
+  return useContext(DarkModeContext);
+};
+
 export const DarkModeProvider = ({ children }) => {
-  const [darkMode, setDarkMode] = useState(false);
+  const storedDarkMode = localStorage.getItem('darkMode') === 'enabled';
+  const [darkMode, setDarkMode] = useState(storedDarkMode);
+
+  useEffect(() => {
+    localStorage.setItem('darkMode', darkMode ? 'enabled' : 'disabled');
+  }, [darkMode]);
 
   return (
     <DarkModeContext.Provider value={{ darkMode, setDarkMode }}>
@@ -12,10 +22,3 @@ export const DarkModeProvider = ({ children }) => {
   );
 };
 
-export const useDarkMode = () => {
-  const context = useContext(DarkModeContext);
-  if (!context) {
-    throw new Error('useDarkMode must be used within a DarkModeProvider');
-  }
-  return context;
-};

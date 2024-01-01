@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
@@ -7,15 +6,15 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { DarkModeProvider, useDarkMode } from "./components/ui/DarkModeContext";
 
 
-function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
+function AppContent() {
+  const {darkMode} = useDarkMode();
   return (
-    <div className={darkMode && "dark"}>
-     <Header darkMode={darkMode} setDarkMode={setDarkMode}/>
-     <BrowserRouter>
+    
+     <div className={darkMode ? 'dark':''}>
+     <Header/>
      <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
@@ -23,10 +22,21 @@ function App() {
       <Route path="/projects" element={<Projects/>}/>
       <Route path="/contact" element={<Contact/>}/>
      </Routes>
-     </BrowserRouter>
+     
      <Footer/>
-    </div>
+     </div>
+     
   );
+}
+
+function App () {
+  return(
+  <DarkModeProvider>
+     <BrowserRouter>
+     <AppContent/>
+     </BrowserRouter>    
+  </DarkModeProvider>
+  )
 }
 
 export default App;
