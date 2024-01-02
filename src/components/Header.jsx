@@ -2,7 +2,7 @@ import React from 'react';
 import {MdBedtime, MdWbSunny} from 'react-icons/md';
 import Logo_dark from '../assets/Logo_dark.png';
 import Menu from './Menu';
-import { useDarkMode } from './ui/DarkModeContext';
+import { useDarkMode } from './context/DarkModeContext';
 
 const Header = () => {
   const {darkMode, setDarkMode}= useDarkMode();

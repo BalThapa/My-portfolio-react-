@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import { DarkModeProvider, useDarkMode } from "./components/ui/DarkModeContext";
+import { DarkModeProvider, useDarkMode } from "./components/context/DarkModeContext";
 
 
 function AppContent() {
