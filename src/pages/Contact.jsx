@@ -3,7 +3,7 @@ import Socials from '../components/Socials';
 
 const Contact = () => {
     return (
-        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 flex flex-col items-center'>
+        <main className='bg-yellow-50 dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 flex flex-col items-center'>
             <div> 
             <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold text-red-900'>Contact</h1>
             <p className='max-w-xl text-center font-light text-gray-500 pt-5'>
