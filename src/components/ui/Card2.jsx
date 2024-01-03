@@ -1,25 +1,26 @@
 import React from 'react';
+import {FaGithub, FaLink} from 'react-icons/fa';
 
-const Card2 = ({ image, title, subtitle, link, linkName, width }) => {
+
+const Card2 = ({ video, title, subtitle, link1, link2}) => {
   return (
-    <div className="flex w-full items-center justify-start p-5 shadow-lg dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110">
-      <img src={image} alt={title} className="w-32 h-32 mr-5" />
-      <div className="flex flex-col">
-        <h1 className="text-2xl lg:text-3xl">{title}</h1>
-        <p className="max-w-md font-light text-gray-500 mb-2 text-sm md:text-base">
+    <div className="flex flex-col md:flex-col lg:flex-row w-auto lg:w-auto items-center justify-start p-5 shadow-lg dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110 ">
+      <video src={video} type='video/mp4' controls autoPlay muted className="w-80 rounded-xl mr-5 lg:w-96" />
+      <div className="flex flex-col items-center text-center w-full">
+        <h1 className="text-2xl lg:text-3xl ">{title}</h1>
+        <p className="max-w-md font-light text-gray-500 mb-2 text-sm md:text-base pt-4">
           {subtitle}
         </p>
-        <a href={link} className="text-blue-600 underline">
-          {linkName}
+        <div className='flex gap-4 mt-3'>
+        <a href={link1} target='_blank' rel='noopener noreferrer' className="text-blue-600 text-3xl underline">
+          <FaGithub/>
+        </a >
+        {link2 && (
+        <a href={link2} target='_blank' rel='noopener noreferrer' className="text-blue-600 text-3xl underline">
+          <FaLink/>
         </a>
-        {width && (
-          <div className="mt-2 h-5 w-full bg-neutral-200 dark:bg-neutral-600 rounded-md">
-            <div
-              className="h-5 bg-red-900 rounded-md"
-              style={{ width }}
-            ></div>
-          </div>
         )}
+        </div>
       </div>
     </div>
   );

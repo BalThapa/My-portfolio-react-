@@ -52,9 +52,7 @@ const Contact = () => {
                     <div className='flex items-center justify-center'>
                         <button className='my-8 bg-gradient-to-r from-red-900 to-teal-500 text-white px-6 py-3 rounded-md tracking-wider cursor-pointer hover:scale-105 duration-200'>Send Message</button>
                     </div>
-                </form>
-                
-                
+                </form>                    
             </div> 
             
         </main>
