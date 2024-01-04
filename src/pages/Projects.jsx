@@ -1,7 +1,9 @@
 import React from 'react';
 import Card2 from '../components/ui/Card2';
 import Card3 from '../components/ui/Card3';
-import Test from '../assets/test.mp4';
+import Test from '../assets/videos/test.mp4';
+import Prototype from '../assets/videos/portfolio-prototype.mp4';
+import SpeedGame from '../assets/videos/speedgame.mp4';
 
 const Projects = () => {
     return (
@@ -23,7 +25,7 @@ const Projects = () => {
             <Card3
             title='Test'
             subtitle='THis is for testing purpose. One screen record has been playing for the purpose of testing.THis is for testing purpose. One screen record has been playing for the purpose of testing.THis is for testing purpose. One screen record has been playing for the purpose of testing.THis is for testing purpose. One screen record has been playing for the purpose of testing.'
-            video={Test}
+            video={SpeedGame}
             link1='https://github.com/BalThapa/SpeedGame-react'
             link2='https://speed-game-react-59x3n4u70-bal-krishnas-projects.vercel.app'/>  
 
@@ -35,11 +37,13 @@ const Projects = () => {
             link2='https://speed-game-react-59x3n4u70-bal-krishnas-projects.vercel.app'/>    
         
             <Card3
-            title='Test'
-            subtitle='THis is for testing purpose. One screen record has been playing for the purpose of testing.THis is for testing purpose. One screen record has been playing for the purpose of testing.THis is for testing purpose. One screen record has been playing for the purpose of testing.THis is for testing purpose. One screen record has been playing for the purpose of testing.'
-            video={Test}
+            title='Portfolio (Prototype)'
+            subtitle='This project is my first study project that is done using Html, CSS and Vanilla JavaScript. During this project i got to knoe how 
+                        to assign header, footer, back to top button, navigation, Flex, Grid, add animations and effects and so on. First its intended to 
+                        be a single page but later one gallary page is added where various sized images are added to practice grid effect.'
+            video={Prototype}
             link1='https://github.com/BalThapa/SpeedGame-react'
-            link2='https://speed-game-react-59x3n4u70-bal-krishnas-projects.vercel.app'/>    
+            />    
         </div>
         </main>
     );

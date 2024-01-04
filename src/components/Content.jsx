@@ -1,9 +1,9 @@
 import React from 'react';
 import Card1 from './ui/Card1';
-import About from '../assets/About.png';
-import Skills from '../assets/Skills.jpeg';
-import Project from '../assets/Project.jpeg';
-import Contact from '../assets/Contact.jpeg';
+import About from '../assets/images/About.png';
+import Skills from '../assets/images/Skills.jpeg';
+import Project from '../assets/images/Project.jpeg';
+import Contact from '../assets/images/Contact.jpeg';
 
 
 const Content = () => {

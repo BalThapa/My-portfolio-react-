@@ -1,6 +1,6 @@
 import React from 'react';
 import {MdBedtime, MdWbSunny} from 'react-icons/md';
-import Logo_dark from '../assets/Logo_dark.png';
+import Logo_dark from '../assets/images/Logo_dark.png';
 import Menu from './Menu';
 import { useDarkMode } from './context/DarkModeContext';
 

@@ -10,8 +10,7 @@ const Contact = () => {
                 These are the ways to contact me. I am open to work as a full-time intern or Junior developer. Feel free to contact 
                 me using your preferred medium. Hope to hear from you soon 😊.
             </p>
-            </div> 
-            
+            </div>             
             <Socials/>
             <p className='max-w-xl text-center font-light text-gray-500 pt-5'>
                 Always welcome to the positive feedbacks and kind words. Do send me your kind words and i make them my motto.

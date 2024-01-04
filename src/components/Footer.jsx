@@ -1,6 +1,6 @@
 import React from 'react';
 import Socials from './Socials';
-import Logo_dark from '../assets/Logo_dark.png';
+import Logo_dark from '../assets/images/Logo_dark.png';
 
 
 const Footer = () => {
