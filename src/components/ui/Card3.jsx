@@ -21,7 +21,7 @@ const Card3 = ({ video, title, subtitle, link1, link2}) => {
             )}
         </div>
       </div>
-      <video src={video} type='video/mp4' controls autoPlay muted className="w-80 rounded-xl ml-5 lg:w-96" />
+      <video src={video} type='video/mp4' controls autoPlay muted className="w-96 rounded-xl" />
     </div>
   );
 };

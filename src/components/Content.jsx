@@ -15,28 +15,28 @@ const Content = () => {
             <Card1
                 image={About}
                 title="About-me"
-                subtitle="This is the description of my journey to the software developing field"
+                subtitle="This is the description of my journey to the Full-stack development field"
                 link="./about"
                 linkName='See More'
             />
             <Card1
                 image={Skills}
                 title="My Skills"
-                subtitle="This is the description of my journey to the software developing field"
+                subtitle="This contains my skills and know-how of various tools and technologies"
                 link="./skills"
                 linkName='See More'
             />
             <Card1
                 image={Project}
                 title="My Projects"
-                subtitle="This is the description of my journey to the software developing field"
+                subtitle="My School as well as personal projects are listed and beriefly described with video clip here."
                 link="./projects"
                 linkName='See More'
             />
             <Card1
                 image={Contact}
                 title="Contact Me"
-                subtitle="This is the description of my journey to the software developing field"
+                subtitle="Various ways to contact me and form to send me massage is in this page. "
                 link="./contact"
                 linkName='See More'
             />
