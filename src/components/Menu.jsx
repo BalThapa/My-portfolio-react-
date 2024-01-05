@@ -25,7 +25,7 @@ const Menu = () => {
                 </ul>
                 <button className='space-y-1 group md:hidden'>
                     <GiHamburgerMenu className='flex md:hidden lg:hidden'/>
-                    <ul className='bg-gray-900 w-screen pb-10 right-0 absolute -top-full group-focus:top-0 duration-150 flex flex-col justify-end text-red-200 '>
+                    <ul className='bg-gray-900 w-screen pb-10 z-10 right-0 absolute -top-full group-focus:top-0 duration-150 flex flex-col justify-end text-red-200 '>
                         <button className='px-10 py-8 relative ml-auto text-2xl'>
                             <MdClose/>
                         </button>
