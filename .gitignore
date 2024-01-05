@@ -8,9 +8,6 @@
 # testing
 /coverage
 
-# videos
-/src/assets/videos
-
 # production
 /build
 
