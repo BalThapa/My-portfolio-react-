@@ -7,13 +7,14 @@ import SpeedGame from '../assets/videos/speedgame.mp4';
 import Recipe from '../assets/videos/recipe-app.mp4'; 
 import Shopping from '../assets/videos/shopping.mp4'; 
 import Countries from '../assets/videos/countries.mp4'; 
+import {MdArrowForward} from 'react-icons/md';
 
 
 const Projects = () => {
     return (
         <main className='bg-yellow-50 dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 '>
         <div >
-            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold text-red-900'>Skills</h1>
+            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold text-red-900'>Projects</h1>
             <p className=' font-light text-gray-500 text-center'>
                 My study at Business College, Helsinki provides me a lot of opportunities to complete various projects using various tool and technologies. 
                 Along with those, i also have some of my own projects. One of my own project is this Portfolio. Amongst my school projects, below are some of
@@ -84,7 +85,17 @@ const Projects = () => {
             link1='https://github.com/BalThapa/MYportfolio'
             />    
         </div>
-        <h2 className='flex justify-center lg:justify-end pt-10 lg:mr-40 text-2xl lg:text-xl font-bold text-red-900'>And many more ...</h2>
+        <div className='flex justify-center mt-5 lg:justify-end lg:mr-40 text-red-900'>
+            <a 
+                href='https://github.com/BalThapa' 
+                target='_blank'
+                rel='noopener noreferrer' className='flex w-56 items-center justify-center mt-10 bg-gradient-to-r from-red-900 to-teal-500 text-white py-2 rounded-lg '>
+                <span className='flex items-center transition-transform duration-500 hover:translate-x-4'>
+                    And Many More ...
+                    <MdArrowForward className=' ml-2 text-white text-2xl '/>
+                </span> 
+            </a>
+        </div>
         </main>
     );
 };

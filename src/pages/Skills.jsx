@@ -34,22 +34,22 @@ const Skills = () => {
                     <Card1 
                     image={Html}
                     title='HTML'
-                    width='80%'
+                    //width='80%'
                     />
                     <Card1 
                     image={CSS}
                     title='CSS'
-                    width='80%'
+                    //width='80%'
                     />
                     <Card1 
                     image={Reactjs}
                     title='React'
-                    width='70%'
+                    //width='70%'
                     />
                     <Card1 
                     image={Reduxjs}
                     title='Redux'
-                    width='30%'
+                    //width='30%'
                     />
                    
                 </div>
@@ -57,17 +57,17 @@ const Skills = () => {
                     <Card1 
                     image={Nextjs}
                     title='Nextjs'
-                    width='20%'
+                    //width='20%'
                     />           
                     <Card1 
                     image={BS}
                     title='Bootstrap'
-                    width='80%'
+                    //width='80%'
                     />
                     <Card1 
                     image={TW}
                     title='Tailwind'
-                    width='80%'
+                    //width='80%'
                     />
                                    
                 </div>
@@ -78,17 +78,17 @@ const Skills = () => {
                     <Card1 
                     image={Js}
                     title='JavaScript'
-                    width='60%'
+                    //width='60%'
                     />
                     <Card1 
                     image={Ts}
                     title='TypeScript'
-                    width='30%'
+                    //width='30%'
                     />
                     <Card1
                     image={PHP} 
                     title='PHP'
-                    width='40%'
+                    //width='40%'
                     />
                 </div>
             </div>
@@ -98,29 +98,29 @@ const Skills = () => {
                     <Card1 
                     image={MySql} 
                     title='MySQL'
-                    width='50%'
+                    //width='50%'
                     />
                     <Card1
                     image={FireBase}  
                     title='Firebase'
-                    width='30%'
+                    //width='30%'
                     />
                     <Card1
                     image={Node}  
                     title='node'
-                    width='40%'
+                    //width='40%'
                     />
                     <Card1
                     image={Sf}  
                     title='Symfony'
-                    width='40%'
+                    //width='40%'
                     />
                 </div>
                 <div className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>
                     <Card1
                     image={Drupal}  
                     title='Drupal'
-                    width='70%'
+                    //width='70%'
                     />
                 </div>
             </div>
@@ -130,22 +130,22 @@ const Skills = () => {
                     <Card1 
                     image={Git}  
                     title='Github'
-                    width='40%'
+                    //width='40%'
                     />
                     <Card1 
                     image={Docker}  
                     title='Docker'
-                    width='40%'
+                    //width='40%'
                     />
                     <Card1 
                     image={AWS}  
                     title='AWS'
-                    width='30%'
+                    //width='30%'
                     />
                     <Card1 
                     image={Lando}  
                     title='Lando'
-                    width='40%'
+                    //width='40%'
                     />
                 </div>
             </div>
@@ -155,12 +155,12 @@ const Skills = () => {
                     <Card1 
                     image={Figma}  
                     title='Figma'
-                    width='70%'
+                    //width='70%'
                     />
                     <Card1 
                     image={Trello}  
                     title='Trello'
-                    width='70%'
+                    //width='70%'
                     />
                 </div>
             </div>

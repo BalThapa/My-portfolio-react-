@@ -9,7 +9,7 @@ const About = () => {
             <h1 className='flex justify-center text-2xl lg:text-3xl uppercase font-bold text-red-900 mb-10'>About me</h1>
             <div className='flex flex-col-reverse md:flex-col-reverse lg:flex-row'>
                 <div className='text-justify'>
-                    <img src={Profile} alt="img" className='w-auto h-2/5 float-right text-wrap rounded-3xl ml-10 mb-5 md:w-auto md:h-2/5 lg:w-auto lg:h-2/5'/>
+                    <img src={Profile} alt="img" className='w-auto h-2/5 float-right text-wrap rounded-3xl ml-10 mt-5 mb-5 md:w-auto md:h-2/5 lg:w-auto lg:h-2/5'/>
                     <p className='py-5'>I am a dedicated student pursuing Full Stack Development at Business College Helsinki, with a passion for technology 
                                         and innovation. I am believer and have faith in power of trust and second chances. As I am near completion of my studies, 
                                         I am actively seeking opportunities to apply and enhance my skills through a challenging internship.
