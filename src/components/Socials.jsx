@@ -6,12 +6,12 @@ const Socials = () => {
     const SOCIAL = [
         {
             id:1,
-            link:"https://linkedin.com",
+            link:"https://www.linkedin.com/in/balkrishna-thapa-chhetri-606941114/",
             icon:<FaLinkedin/>,
         },
         {
             id:2,
-            link:"https://facebook.com",
+            link:"https://www.facebook.com/balkrishna.thapa.336/",
             icon:<FaFacebook/>,
         },
         {
@@ -21,7 +21,7 @@ const Socials = () => {
         },
         {
             id:3,
-            link:"https://github.com/Bal-Thapa",
+            link:"https://github.com/BalThapa",
             icon:<FaGithub/>,
         },
     ];
