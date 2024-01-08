@@ -13,7 +13,7 @@ const Hero = () => {
             <h2 className='text-3xl uppercase font-bold text-red-900'>Bal Krishna Thapa Chhetri</h2>
             <h3 className='py-3 text-xl'>Junior Software Developer</h3>
             <p className='max-w-xl font-light text-gray-500'>
-                Hello, welcome to my portfolio. I am a Junior Software Developer searching for an internship opportunity. I love to work in FrontEndside and learning backend also. 
+                Hello, welcome to my portfolio. I am a Junior Software Developer. Right now, I am searching for internship or apprenticeship. I love to work in Front-end and have great interest in learning backend also. 
             </p>
             </div> 
             <Socials/>
