@@ -10,7 +10,7 @@ const Hero = () => {
         <section className='h-1/2 flex flex-col justify-start items-center p-5 text-center relative z-0'>
     
             <div className='mt-10'> 
-            <h2 className='text-3xl uppercase font-bold text-red-900'>Bal Krishna Thapa Chhetri</h2>
+            <h1 className='text-3xl uppercase font-bold text-red-900'>Bal Krishna Thapa Chhetri</h1>
             <h3 className='py-3 text-xl'>Junior Software Developer</h3>
             <p className='max-w-xl font-light text-gray-500'>
                 Hello, welcome to my portfolio. I am a Junior Software Developer. Right now, I am searching for internship or apprenticeship. I love to work in Front-end and have great interest in learning backend also. 
