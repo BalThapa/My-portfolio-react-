@@ -46,14 +46,14 @@ const Skills = () => {
                     title='React'
                     //width='70%'
                     />
+                   
+                </div>
+                <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'> 
                     <Card1 
                     image={Reduxjs}
                     title='Redux'
                     //width='30%'
                     />
-                   
-                </div>
-                <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'> 
                     <Card1 
                     image={Nextjs}
                     title='Nextjs'
@@ -63,13 +63,14 @@ const Skills = () => {
                     image={BS}
                     title='Bootstrap'
                     //width='80%'
-                    />
+                    />               
+                </div>
+                <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'> 
                     <Card1 
                     image={TW}
                     title='Tailwind'
                     //width='80%'
-                    />
-                                   
+                    />        
                 </div>
             </div>
             <div>
@@ -110,13 +111,13 @@ const Skills = () => {
                     title='node'
                     //width='40%'
                     />
+                </div>
+                <div className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>
                     <Card1
                     image={Sf}  
                     title='Symfony'
                     //width='40%'
-                    />
-                </div>
-                <div className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>
+                    />  
                     <Card1
                     image={Drupal}  
                     title='Drupal'
@@ -142,11 +143,14 @@ const Skills = () => {
                     title='AWS'
                     //width='30%'
                     />
+                    
+                </div>
+                <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'> 
                     <Card1 
                     image={Lando}  
                     title='Lando'
                     //width='40%'
-                    />
+                    />           
                 </div>
             </div>
             <div>

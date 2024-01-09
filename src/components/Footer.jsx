@@ -2,6 +2,7 @@ import React from 'react';
 import Socials from './Socials';
 import Logo_dark from '../assets/images/Logo_dark.png';
 
+let currentYear = new Date().getFullYear();
 
 const Footer = () => {
     return (
@@ -16,7 +17,7 @@ const Footer = () => {
           </div>
             <Socials/>
                    <div className='mb-5'>
-              <small>©Copyright2023@BalKrishna</small> 
+              <small>©Copyright{currentYear}@BalKrishna</small> 
           </div> 
           
         </footer>

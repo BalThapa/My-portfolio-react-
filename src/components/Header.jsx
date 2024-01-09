@@ -11,10 +11,10 @@ const Header = () => {
   };
     return (
         <header className="bg-red-200 dark:bg-gray-900 text-gray-900 dark:text-white ">
-          <nav className="flex justify-between items-center p-5">
+          <nav className="flex justify-between items-center px-10 py-5">
             <div className='flex items-center gap-5'>
               {/* <a href="./"><img src={Logo_dark} alt="logo" className='h-14' /></a> */}
-              <a href="./"><h1 className='text-2xl font-bold font-sans'>Bal Krishna</h1></a>
+              <a href="./"><h1 className='text-3xl font-bold font-sans'>Bal Krishna</h1></a>
             </div>
             <div className='flex gap-5'>
             <Menu/>
