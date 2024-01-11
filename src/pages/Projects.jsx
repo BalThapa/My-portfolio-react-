@@ -12,10 +12,10 @@ import {MdArrowForward} from 'react-icons/md';
 
 const Projects = () => {
     return (
-        <main className='bg-yellow-50 dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 '>
+        <main className='bg-yellow-50 dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52'>
         <div >
-            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold text-red-900'>Projects</h1>
-            <p className=' font-light text-gray-500 text-center'>
+            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold pb-10'>Projects</h1>
+            <p className='dark:text-white text-gray-900 text-lg text-center'>
                 My study at Business College, Helsinki provides me a lot of opportunities to complete various projects using various tool and technologies. 
                 Along with those, i also have some of my own projects. One of my own project is this Portfolio. Amongst my school projects, below are some of
                  them with berief introduction and video clip. 

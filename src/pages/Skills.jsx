@@ -24,12 +24,12 @@ import Trello from '../assets/images/trello.jpeg';
  
 const Skills = () => {
     return (
-        <main className='bg-yellow-50 dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 '>
-            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold text-red-900'>Skills</h1>
-            <p className=' font-light text-gray-500 text-center'>While moving along with my life and studying BBA from Centria UAS and Full Stack Development program from Business College Helsinki, I get the opportunity to sharpen my diverse skills set in both technical and soft skills. With 
+        <main className='bg-yellow-50 dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52'>
+            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold pb-10'>Skills</h1>
+            <p className='dark:text-white text-gray-900 text-center text-lg font-light'>While moving along with my life and studying BBA from Centria UAS and Full Stack Development program from Business College Helsinki, I get the opportunity to sharpen my diverse skills set in both technical and soft skills. With 
                 a lot of study, practice, failure and success I was able to get myself acquinted with various technologies and tools. Below are the skills and level.  </p>
             <div>
-                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold text-red-900'>Frontend Technologies</h2>
+                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Frontend Technologies</h2>
                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
                     <Card1 
                     image={Html}
@@ -74,7 +74,7 @@ const Skills = () => {
                 </div>
             </div>
             <div>
-                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold text-red-900'>Programming Languages</h2>
+                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Programming Languages</h2>
                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
                     <Card1 
                     image={Js}
@@ -94,7 +94,7 @@ const Skills = () => {
                 </div>
             </div>
             <div>
-                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold text-red-900'>Backend Techologies & CMS</h2>
+                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Backend Techologies & CMS</h2>
                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
                     <Card1 
                     image={MySql} 
@@ -126,7 +126,7 @@ const Skills = () => {
                 </div>
             </div>
             <div>
-                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold text-red-900'>DevOp Technologies</h2>
+                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>DevOp Technologies</h2>
                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
                     <Card1 
                     image={Git}  
@@ -154,7 +154,7 @@ const Skills = () => {
                 </div>
             </div>
             <div>
-                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold text-red-900'>Design & Project Management Tools</h2>
+                <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Design & Project Management Tools</h2>
                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
                     <Card1 
                     image={Figma}  

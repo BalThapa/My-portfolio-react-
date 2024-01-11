@@ -11,28 +11,28 @@ const Menu = () => {
 
     return (
         <div className='flex'>
-            <ul className='lg:flex md:flex hidden'>
+            <ul className='lg:flex md:flex hidden text-lg'>
                 <li className='mr-6'>
-                    <a href='/' className='hover:underline hover:text-blue-900'>Home</a>
+                    <a href='/' className='hover:underline'>Home</a>
                 </li>
                 <li className='mr-6'>
-                    <a href='/about' className='hover:underline hover:text-blue-900'>About</a>
+                    <a href='/about' className='hover:underline '>About</a>
                 </li>
                 <li className='mr-6'>
-                    <a href='/skills' className='hover:underline hover:text-blue-900'>Skills</a>
+                    <a href='/skills' className='hover:underline '>Skills</a>
                 </li>
                 <li className='mr-6'>
-                    <a href='/projects' className='hover:underline hover:text-blue-900'>Projects</a>
+                    <a href='/projects' className='hover:underline '>Projects</a>
                 </li>
                 <li className='mr-6'>
-                    <a href='/contact' className='hover:underline hover:text-blue-900'>Contact</a>
+                    <a href='/contact' className='hover:underline '>Contact</a>
                 </li>
             </ul>
             <button className='space-y-1 group md:hidden' onClick={toggleNav}>
                 {isNavOpen ? <MdClose className='flex md:hidden lg:hidden' /> : <GiHamburgerMenu className='flex md:hidden lg:hidden' />}
             </button>
             {isNavOpen && (
-                <ul className='fixed top-0 left-0 w-full bg-gray-900 text-red-200 z-10 flex flex-col justify-end'>
+                <ul className='fixed top-0 left-0 w-full bg-gray-900 text-red-200 z-10 flex flex-col justify-end lg:hidden md:hidden'>
                     <button className='px-10 py-8 relative ml-auto text-2xl' onClick={toggleNav}>
                         <MdClose/>
                     </button>

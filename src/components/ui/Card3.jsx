@@ -4,18 +4,18 @@ import {FaGithub, FaLink} from 'react-icons/fa';
 
 const Card3 = ({ video, title, subtitle, link1, link2}) => {
   return (
-    <div className="flex flex-col-reverse md:flex-col-reverse lg:flex-row  h-auto lg:h-auto items-center justify-start p-5 shadow-md dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110 ">
+    <div className=" dark:bg-gray-800 bg-yellow-100 flex flex-col-reverse md:flex-col-reverse lg:flex-row  h-auto lg:h-auto items-center justify-start p-5 shadow-md shadow-gray-500 dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110 ">
       <div className="flex flex-col items-center text-center w-full p-5">
-        <h1 className="text-2xl lg:text-3xl ">{title}</h1>
-        <p className="max-w-md font-light text-gray-500 mb-2 text-sm md:text-base pt-4">
+        <h2 className="text-2xl">{title}</h2>
+        <p className="max-w-md font-light text-gray-900 dark:text-white mb-2 text-sm md:text-base pt-4">
           {subtitle}
         </p>
         <div className='flex gap-4 mt-3'>
-            <a href={link1} target='_blank' rel='noopener noreferrer' className="text-blue-600 text-3xl underline">
+            <a href={link1} target='_blank' rel='noopener noreferrer' className="text-blue-600 dark:text-blue-200 text-3xl underline">
             <FaGithub className='cursor-pointer duration-300 hover:text-red-900 ease-in-out hover:scale-110'/>
             </a >
             {link2 && (
-            <a href={link2} target='_blank' rel='noopener noreferrer' className="text-blue-600 text-3xl underline">
+            <a href={link2} target='_blank' rel='noopener noreferrer' className="text-blue-600 dark:text-blue-200 text-3xl underline">
             <FaLink className='cursor-pointer duration-300 hover:text-red-900 ease-in-out hover:scale-110'/>
             </a>
             )}
