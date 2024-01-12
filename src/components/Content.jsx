@@ -29,7 +29,7 @@ const Content = () => {
             <Card1
                 image={Project}
                 title="My Projects"
-                subtitle="My School as well as personal projects are listed and beriefly described with video clip here."
+                subtitle="All my projects are listed and beriefly described with video clip here."
                 link="./projects"
                 linkName='See More'
             />
