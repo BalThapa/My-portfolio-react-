@@ -4,7 +4,7 @@ import {FaGithub, FaLink} from 'react-icons/fa';
 
 const Card3 = ({ video, title, subtitle, link1, link2}) => {
   return (
-    <div className=" dark:bg-gray-800 bg-yellow-100 flex flex-col-reverse md:flex-col-reverse lg:flex-row  h-auto lg:h-auto items-center justify-start p-5 shadow-md shadow-gray-500 dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110 ">
+    <div className=" dark:bg-gray-800 bg-slate-100 flex flex-col-reverse md:flex-col-reverse lg:flex-row  h-auto lg:h-auto items-center justify-start p-5 shadow-md shadow-gray-500 dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110 ">
       <div className="flex flex-col items-center text-center w-full p-5">
         <h2 className="text-2xl">{title}</h2>
         <p className="max-w-md font-light text-gray-900 dark:text-white mb-2 text-sm md:text-base pt-4">

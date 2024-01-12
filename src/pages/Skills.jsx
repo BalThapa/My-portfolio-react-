@@ -1,9 +1,193 @@
+// import React from 'react';
+// import Card1 from '../components/ui/Card1';
+// import Js from '../assets/images/js.jpeg';
+// import Html from '../assets/images/html5.png';
+// import Reactjs from '../assets/images/react.png';
+// import Reduxjs from '../assets/images/redux.png';
+// import Nextjs from '../assets/images/nextjs.png';
+// import CSS from '../assets/images/css.png';
+// import BS from '../assets/images/Bootstrap.png';
+// import TW from '../assets/images/tw.png';
+// import Ts from '../assets/images/TS.png';
+// import PHP from '../assets/images/php.jpg';
+// import MySql from '../assets/images/mysql.png';
+// import Drupal from '../assets/images/drupal.png';
+// import FireBase from '../assets/images/firebase.png';
+// import Node from '../assets/images/njs.jpeg';
+// import Git from '../assets/images/GitHub.png';
+// import Docker from '../assets/images/Docker.jpeg';
+// import AWS from '../assets/images/aws.png';
+// import Lando from '../assets/images/lando.png';
+// import Sf from '../assets/images/sf.png';
+// import Figma from '../assets/images/figma.jpeg';
+// import Trello from '../assets/images/trello.jpeg';
+ 
+// const Skills = () => {
+//     return (
+//         <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52'>
+//             <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold pb-10'>Skills</h1>
+//             <p className='dark:text-white text-gray-900 text-center text-lg font-light'>While moving along with my life and studying BBA from Centria UAS and Full Stack Development program from Business College Helsinki, I get the opportunity to sharpen my diverse skills set in both technical and soft skills. With 
+//                 a lot of study, practice, failure and success I was able to get myself acquinted with various technologies and tools. Below are the skills and level.  </p>
+//             <div>
+//                 <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Frontend Technologies</h2>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
+//                     <div className='flex flex-col items-center'>
+//                         <img src={Html} alt='html' className='w-20'/> 
+//                         <h2 className='py-3 text-2xl'>HTML5</h2>
+//                     </div>
+//                     <div className='flex flex-col items-center'>
+//                         <img src={CSS} alt='css' className='w-20'/> 
+//                         <h2 className='py-3 text-2xl'>CSS3</h2>
+//                     </div>
+//                     <div className='flex flex-col items-center'>
+//                         <img src={Reactjs} alt='Reactjs' className='w-20'/> 
+//                         <h2 className='py-3 text-2xl'>ReactJs</h2>
+//                     </div>
+//                     <div className='flex flex-col items-center'>
+//                         <img src={Reduxjs} alt='Reduxjs' className='w-20'/> 
+//                         <h2 className='py-3 text-2xl'>ReduxJs</h2>
+//                     </div>
+//                     <div className='flex flex-col items-center'>
+//                         <img src={Nextjs} alt='Reduxjs' className='w-20'/> 
+//                         <h2 className='py-3 text-2xl'>ReduxJs</h2>
+//                     </div>
+//                     <div className='flex flex-col items-center'>
+//                         <img src={BS} alt='Reduxjs' className='w-20'/> 
+//                         <h2 className='py-3 text-2xl'>ReduxJs</h2>
+//                     </div>
+                    
+                   
+//                 </div>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'> 
+                   
+                   
+                   
+//                     <Card1 
+//                     image={Nextjs}
+//                     title='Nextjs'
+                    
+//                     />           
+//                     <Card1 
+//                     image={BS}
+//                     title='Bootstrap'
+                    
+//                     />               
+//                 </div>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'> 
+//                     <Card1 
+//                     image={TW}
+//                     title='Tailwind'
+                    
+//                     />        
+//                 </div>
+//             </div>
+//             <div>
+//                 <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Programming Languages</h2>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
+//                     <Card1 
+//                     image={Js}
+//                     title='JavaScript'
+                   
+//                     />
+//                     <Card1 
+//                     image={Ts}
+//                     title='TypeScript'
+                    
+//                     />
+//                     <Card1
+//                     image={PHP} 
+//                     title='PHP'
+                    
+//                     />
+//                 </div>
+//             </div>
+//             <div>
+//                 <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Backend Techologies & CMS</h2>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
+//                     <Card1 
+//                     image={MySql} 
+//                     title='MySQL'
+                    
+//                     />
+//                     <Card1
+//                     image={FireBase}  
+//                     title='Firebase'
+                   
+//                     />
+//                     <Card1
+//                     image={Node}  
+//                     title='node'
+                    
+//                     />
+//                 </div>
+//                 <div className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>
+//                     <Card1
+//                     image={Sf}  
+//                     title='Symfony'
+                    
+//                     />  
+//                     <Card1
+//                     image={Drupal}  
+//                     title='Drupal'
+                    
+//                     />
+//                 </div>
+//             </div>
+//             <div>
+//                 <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>DevOp Technologies</h2>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
+//                     <Card1 
+//                     image={Git}  
+//                     title='Github'
+                    
+//                     />
+//                     <Card1 
+//                     image={Docker}  
+//                     title='Docker'
+                    
+//                     />
+//                     <Card1 
+//                     image={AWS}  
+//                     title='AWS'
+                    
+//                     />
+                    
+//                 </div>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'> 
+//                     <Card1 
+//                     image={Lando}  
+//                     title='Lando'
+                    
+//                     />           
+//                 </div>
+//             </div>
+//             <div>
+//                 <h2 className='flex justify-center py-10 text-xl lg:text-2xl lg:justify-start font-bold'>Design & Project Management Tools</h2>
+//                 <div  className='flex flex-col gap-10 items-center p-10 lg:flex-row lg:justify-center'>            
+//                     <Card1 
+//                     image={Figma}  
+//                     title='Figma'
+                   
+//                     />
+//                     <Card1 
+//                     image={Trello}  
+//                     title='Trello'
+                   
+//                     />
+//                 </div>
+//             </div>
+//         </main>
+//     );
+// };
+
+// export default Skills;
+
 import React from 'react';
 import Card1 from '../components/ui/Card1';
 import Js from '../assets/images/js.jpeg';
 import Html from '../assets/images/html5.png';
 import Reactjs from '../assets/images/react.png';
-import Reduxjs from '../assets/images/redux.jpeg';
+import Reduxjs from '../assets/images/redux.png';
 import Nextjs from '../assets/images/nextjs.png';
 import CSS from '../assets/images/css.png';
 import BS from '../assets/images/Bootstrap.png';

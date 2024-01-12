@@ -12,7 +12,7 @@ import {MdArrowForward} from 'react-icons/md';
 
 const Projects = () => {
     return (
-        <main className='bg-yellow-50 dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52'>
+        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52'>
         <div >
             <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold pb-10'>Projects</h1>
             <p className='dark:text-white text-gray-900 text-lg text-center'>
