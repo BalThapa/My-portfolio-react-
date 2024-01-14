@@ -6,7 +6,7 @@ const Socials = () => {
     const SOCIAL = [
         {
             id:1,
-            link:"https://www.linkedin.com/in/balkrishna-thapa-chhetri-606941114",
+            link:"https://www.linkedin.com/in/balkrishna-thapa",
             icon:<FaLinkedin/>,
         },
         {
