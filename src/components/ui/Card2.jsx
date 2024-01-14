@@ -8,8 +8,8 @@ const Card2 = ({ video, title, subtitle, link1, link2, keywords}) => {
       <video src={video} type='video/mp4' controls autoPlay muted className="w-96 rounded-xl" />
       <div className="flex flex-col items-center text-center w-full p-5">
         <h2 className="text-2xl">{title}</h2>
-        <p className='text-gray-500 justify-start pt-2 max-w-md'>Keywords: {keywords}</p>
-        <p className="max-w-md text-gray-900 dark:text-white mb-2 text-sm md:text-base pt-4">
+        <p className='dark:text-green-500 text-gray-900 font-semibold justify-start pt-2 max-w-md'>Keywords: {keywords}</p>
+        <p className="max-w-md text-gray-700 dark:text-white mb-2 text-sm md:text-base pt-4">
           {subtitle}
         </p>
         <div className='flex gap-4 mt-3'>
