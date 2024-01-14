@@ -24,6 +24,7 @@ const Projects = () => {
         <div className='flex flex-col gap-20 items-center mt-20'>
             <Card2
             title='Countries App'
+            keywords='ReactJs, Redux Toolkit, React Router, APIs, Bootstrap.'
             subtitle='This app is a simple wen application built with React. And a collection of information about diferent countries.
                      User can access informations like capital, population, currencies, weather etc. 
                      This application uses the information from restcountries.com. and weathermap. It is build with CSS, Reactjs, React Router, Redux Toolkit, Bootstrap
@@ -34,19 +35,20 @@ const Projects = () => {
         
             <Card3
             title='Portfolio(Drupal)'
+            keywords='Portfolio, Drupal 10, Bartik Theme.'
             subtitle=" A portfolio crafted using the Bartik theme in Drupal 10 is a sleek, 
             multipurpose website. It showcases a resume, contact form, projects, skills, 
             blog posts, and an 'about me' section. This theme provides a structured and 
             visually appealing layout to display your professional qualifications, past work, 
             expertise, and personal information. It offers an easy-to-navigate interface for visitors to explore your portfolio and 
-            connect with you effortlessly.
-            "
+            connect with you effortlessly."
             video={Portfolio}
             link1='https://github.com/BalThapa/Portfolio-Drupal'
             />  
 
             <Card2
             title='Recipe-App'
+            keywords='Components and props, GET & POST, Origin Country flag'
             subtitle="This is a recipe-app build using basic react. From which hooks, components and props are used.
                     Various dependencies are installed and used as per the need. Methods like GET, POST are also used.
                     The main function of this app is to make the user able to browse the required recipe in cards, get detailed info by clicking the card link.
@@ -57,6 +59,7 @@ const Projects = () => {
 
             <Card3
             title='Shopping-App'
+            keywords='React Hooks, FakeAPI, React-Bootstrap'
             subtitle='This is a simple shopping app created using the react js, Hooks, FakeAPI and packages like react-bootstrap, 
                     react-redux etc. for drop down menu, button and icons. It has easy routing from page to page. Homepage with Discount informations and contact informations.
                     Product List page with all listed product along with detailed modle for each product. Seperate categories are included within drop-down menu which navigate the user to required category list.
@@ -67,6 +70,7 @@ const Projects = () => {
 
             <Card2
             title='SpeedGame'
+            keywords='Conditional Logic, User-selectable levels, Level and Score Cards modal'
             subtitle='This project is a second version or refactoring of the Speed game which was created using Html, CSS & vanila javascript. React is used which
                      is way more simpler and shorter. This version is advanced in the way that there are some features added such as Conditions according to the 
                      score achieved, Level to be selected by the user where speed increases as per the level selected. Modles for level and score card.
@@ -78,6 +82,7 @@ const Projects = () => {
         
             <Card3
             title='Portfolio (Prototype)'
+            keywords='HTML, CSS, JavaScript, Flex, Grid'
             subtitle='This project is my first study project that is done using Html, CSS and Vanilla JavaScript. During this project i got to know how 
                         to assign header, footer, back to top button, navigation, Flex, Grid, add animations and effects and so on. First its intended to 
                         be a single page but later one gallary page is added where various sized images are added to practice grid effect.'
