@@ -6,10 +6,10 @@ const Card2 = ({ video, title, subtitle, link1, link2, keywords}) => {
   return (
     <div className="flex bg-slate-100 flex-col dark:bg-gray-800 md:flex-col lg:flex-row h-auto p-3 lg:h-auto items-center justify-start shadow-md shadow-gray-500 dark:shadow-gray-100 rounded-xl duration-300 ease-in-out hover:scale-110 ">
       <video src={video} type='video/mp4' controls autoPlay muted className="w-96 rounded-xl" />
-      <div className="flex flex-col items-center text-center w-full pt-3 lg:p-5">
+      <div className="flex flex-col items-center text-center w-full pt-3 lg:px-5 md:px-5">
         <h2 className="text-2xl">{title}</h2>
         <p className='dark:text-green-500 text-gray-900 font-semibold justify-start pt-2 max-w-md'>Keywords: {keywords}</p>
-        <p className="max-w-md text-gray-700 dark:text-white mb-2 text-sm md:text-base pt-4">
+        <p className="max-w-md text-gray-700 text-left dark:text-white mb-2 text-sm md:text-base pt-4">
           {subtitle}
         </p>
         <div className='flex gap-4 mt-3'>
