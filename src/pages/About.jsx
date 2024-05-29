@@ -4,7 +4,7 @@ import Profile from '../assets/images/profile.jpeg';
 
 const About = () => {
     return (
-        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-80'>
+        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-80 h-screen'>
             <h1 className='flex justify-center text-2xl lg:text-3xl uppercase font-bold mb-10'>About me</h1>
             <div className='flex '>
                 <div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from '../assets/images/profile.jpeg';
+import Profile from '../assets/images/testprofile.jpeg';
 import Resume from '../assets/doc/bal-resume.pdf';
 import {MdArrowForward} from 'react-icons/md'
 import Socials from './Socials';
@@ -21,7 +21,7 @@ const Hero = () => {
                 <img 
                     src={Profile} 
                     alt="pic" 
-                    className="w-60 h-60 md:w-72 object-cover rounded-xl"
+                    className="w-60 md:w-72 object-cover rounded-xl"
                 />
                 
                 <a 
