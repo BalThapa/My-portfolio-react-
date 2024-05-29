@@ -4,11 +4,11 @@ import Profile from '../assets/images/testprofile.jpeg';
 
 const About = () => {
     return (
-        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-80 h-screen'>
+        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-80'>
             <h1 className='flex justify-center text-2xl lg:text-3xl uppercase font-bold mb-10'>About me</h1>
             <div className='flex '>
                 <div>
-                    <img src={Profile} alt="img" className='w-2/5 float-right text-wrap rounded-3xl ml-10 mt-5 mb-5 md:w-2/5 lg:w-2/5' />
+                    <img src={Profile} alt="img" className='w-2/5 float-right object-cover text-wrap rounded-3xl ml-10 mt-5 mb-5 md:w-2/5 lg:w-2/5' />
                     <p className='py-3 text-lg dark:font-light'>
                         I'm an enthusiastic Full Stack Development student at Business College Helsinki, driven by a deep passion for <span className='font-semibold dark:text-green-500'>technology
                          and innovation</span>. As I near the end of my studies, 
