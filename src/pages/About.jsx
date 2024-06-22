@@ -10,9 +10,9 @@ const About = () => {
                 <div>
                     <img src={Profile} alt="img" className='w-2/5 float-right object-cover text-wrap rounded-3xl ml-10 mt-5 mb-5 md:w-2/5 lg:w-2/5' />
                     <p className='py-3 text-lg dark:font-light'>
-                        I'm an enthusiastic Full Stack Development student at Business College Helsinki, driven by a deep passion for <span className='font-semibold dark:text-green-500'>technology
-                         and innovation</span>. As I near the end of my studies, 
-                        I'm actively seeking challenging internships to apply and elevate my skills.
+                        I'm an enthusiastic Full Stack Developer, driven by a deep passion for <span className='font-semibold dark:text-green-500'>technology
+                         and innovation</span>. As I have graduated and am ready for job market, 
+                        I'm actively seeking position as a software developer to apply and elevate my skills.
                     </p>
                     <p className='py-3 text-lg dark:font-light'>
                         My journey into programming began just over a year ago, sparking a thrilling 
