@@ -98,6 +98,9 @@ const Skills = () => {
                     <img src='https://img.shields.io/badge/Trello-1572B6?style=flat-square&logo=trello&logoColor=white'
                         alt='git' className='h-16 rounded-md shadow-md shadow-gray-500 dark:shadow-gray-100 duration-300 ease-in-out hover:scale-110'
                     />
+                    <img src='https://img.shields.io/badge/Hailer-1572B6?style=flat-square&logo=hailer&logoColor=white%27'
+                        alt='git' className='h-16 rounded-md shadow-md shadow-gray-500 dark:shadow-gray-100 duration-300 ease-in-out hover:scale-110'
+                    />
                 </div>
             </div>
         </main>
