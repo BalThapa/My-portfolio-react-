@@ -11,9 +11,9 @@ const Hero = () => {
     
             <div className='mt-10'> 
             <h1 className='text-3xl uppercase font-bold'>Bal Krishna Thapa Chhetri</h1>
-            <h3 className='py-3 text-xl'>Junior Software Developer</h3>
-            <p className='max-w-xl font-light text-gray-900 dark:text-white'>
-                Hello, welcome to my portfolio. I am a Junior Software Developer. Right now, I am searching for internship or apprenticeship. I love to work in Front-end and have great interest in learning backend also. 
+            <h3 className='py-3 text-xl'>Software Developer</h3>
+            <p className='max-w-xl tracking-wider font-light text-gray-900 dark:text-white'>
+                Hello 👋! Welcome to my portfolio. I am a Software Developer. Right now, I am open to work and appreciate all sorts of opportunities as junior developer, apprentice or intern. My strngths are coding parallel to team-work, communication and project-management. 
             </p>
             </div> 
             <Socials/>

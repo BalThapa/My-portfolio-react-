@@ -9,6 +9,7 @@ const About = () => {
             <div className='flex '>
                 <div>
                     <img src={Profile} alt="img" className='w-2/5 float-right object-cover text-wrap rounded-3xl ml-10 mt-5 mb-5 md:w-2/5 lg:w-2/5' />
+                    <div className='lg:mt-10'>
                     <p className='py-3 text-lg dark:font-light'>
                         I'm an enthusiastic Full Stack Developer, driven by a deep passion for <span className='font-semibold dark:text-green-500'>technology
                          and innovation</span>. As I have graduated and am ready for job market, 
@@ -21,7 +22,7 @@ const About = () => {
                     </p>
                     <p className='py-3 text-lg dark:font-light'>
                         Guided by exceptional teachers and supported by collaborative friends, I've honed
-                        proficiency in <span className='font-semibold dark:text-green-500'>HTML, CSS, React.js, JavaScript, PHP (Symfony), Tailwind CSS, 
+                        proficiency in <span className='font-semibold dark:text-green-500'>HTML, CSS, React.js, JavaScript, Nodejs, PHP, Tailwind CSS, 
                         Bootstrap, Drupal</span>. I also possess basic knowledge of <span className='font-semibold dark:text-green-500'>Next.js and 
                         Typescript</span>, and have hands-on experience with <span className='font-semibold dark:text-green-500'>Docker, Figma, Trello, Github, 
                         AWS, and CI/CD pipeline</span>.
@@ -43,6 +44,7 @@ const About = () => {
                         interests</span>, feel free to reach out. I'm excited about the potential ways we can collaborate for remarkable results.
                     </p>
                     <p className='py-3 text-lg dark:font-light'><span className='font-semibold dark:text-green-500'>Let's connect ! </span> 😊</p>
+                    </div>
                     
                 </div>
                 
