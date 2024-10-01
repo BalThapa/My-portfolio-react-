@@ -1,4 +1,4 @@
-[![Node CI](https://github.com/BalThapa/My-portfolio-react-/actions/workflows/whatever.yml/badge.svg)](https://github.com/BalThapa/My-portfolio-react-/actions/workflows/whatever.yml)
+[![Node CI](https://github.com/BalThapa/My-portfolio-react-/actions/workflows/production.yaml/badge.svg)](https://github.com/BalThapa/My-portfolio-react-/actions/workflows/production.yaml)
 
 # Portfolio Project
 
