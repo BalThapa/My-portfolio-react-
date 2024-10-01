@@ -1,3 +1,5 @@
+[![Node CI](https://github.com/BalThapa/My-portfolio-react/actions/workflows/whatever.yml/badge.svg)](https://github.com/BalThapa/My-portfolio-react/actions/workflows/whatever.yml)
+
 # Portfolio Project
 
 This portfolio project is created using React and styled with Tailwind CSS. It comprises multiple pages including the Home, About Me, Skills, Projects, and Contact Me pages.
@@ -42,8 +44,13 @@ To get a copy of this project running on your local machine, follow these steps:
 
 Once the development server is running, you can access the portfolio locally by visiting `http://localhost:3000` in your web browser. Navigate through the different pages to explore the content.
 
+## Deployment
+
+This project is also deployed using Vercel. The link to the website is `https://my-portfolio-react-delta.vercel.app/`. Github Actions is used as my CI/CD provider to generate Preview Deployments for every git push and deploy to Production when code is merged into the main branch.
+
 ## Acknowledgements
 
 Special thanks to the creators and maintainers of React and Tailwind CSS for providing the tools and resources necessary to build this portfolio project. Also, all those tutorials videos and Q&A in stack-overflow and w3school web pages.
+
 
 
