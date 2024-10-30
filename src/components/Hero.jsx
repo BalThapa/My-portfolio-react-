@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from '../assets/images/testprofile.jpeg';
-import Resume from '../assets/doc/CV.pdf';
+import Resume from '../assets/doc/CV_2.pdf';
 import {MdArrowForward} from 'react-icons/md'
 import Socials from './Socials';
 
