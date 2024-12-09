@@ -10,7 +10,7 @@ const Header = () => {
     setDarkMode(!darkMode);
   };
     return (
-        <header className="bg-red-200 dark:bg-gray-900 text-gray-900 dark:text-white ">
+        <header className="bg-red-200 dark:bg-gray-900 text-gray-900 dark:text-white fixed w-full z-50">
           <nav className="flex justify-between items-center px-10 py-5">
             <div className='flex items-center gap-5'>
               {/* <a href="./"><img src={Logo_dark} alt="logo" className='h-14' /></a> */}

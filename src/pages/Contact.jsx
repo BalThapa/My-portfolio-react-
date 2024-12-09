@@ -4,7 +4,7 @@ import Socials from '../components/Socials';
 const Contact = () => {
     return (
         <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 flex flex-col items-center'>
-            <div> 
+            <div className='mt-20'> 
             <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold'>Contact</h1>
             <p className='max-w-xl text-center font-light text-gray-900 dark:text-white pt-5'>
                 These are the ways to contact me. I am open to work as a full-time intern or Junior developer. Feel free to contact 

@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => {
     return (
         <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52'>
-            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold pb-10'>Skills</h1>
+            <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold pb-10 mt-20'>Skills</h1>
             <p className='dark:text-white text-gray-900 text-center text-lg font-light'>While moving along with my life and studying BBA from Centria UAS and Full Stack Development program from Business College Helsinki, I get the opportunity to sharpen my diverse skills set in both technical and soft skills. With 
                 a lot of study, practice, failure and success I was able to get myself acquinted with various technologies and tools. Below are the skills and level.  </p>
             <div>

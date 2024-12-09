@@ -12,8 +12,8 @@ import {MdArrowForward} from 'react-icons/md';
 
 const Projects = () => {
     return (
-        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52'>
-        <div >
+        <main className=' dark:bg-gray-900 text-gray-900 dark:text-white p-10 px-30 md:px-40 lg:px-52 xl:px-52 '>
+        <div className='mt-20'>
             <h1 className='flex justify-center py-3 text-2xl lg:text-3xl uppercase font-bold pb-10'>Projects</h1>
             <p className='dark:text-white text-gray-900 text-lg text-center'>
                 My study at Business College, Helsinki provides me a lot of opportunities to complete various projects using various tool and technologies. 

@@ -7,9 +7,9 @@ import Socials from './Socials';
 const Hero = () => {
  
     return (
-        <section className='h-1/2 flex flex-col justify-start items-center p-5 text-center relative z-0'>
+        <section className='h-1/2 flex flex-col justify-start items-center p-5 text-center relative z-0 '>
     
-            <div className='mt-10'> 
+            <div className='mt-24'> 
             <h1 className='text-3xl uppercase font-bold'>Bal Krishna Thapa Chhetri</h1>
             <h3 className='py-3 text-xl'>Software Developer</h3>
             <p className='max-w-xl tracking-wider font-light text-gray-900 dark:text-white'>
