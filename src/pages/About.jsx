@@ -15,6 +15,7 @@ const About = () => {
                          and innovation</span>. As I have graduated and am ready for job market, 
                         I'm actively seeking position as a software developer to apply and elevate my skills.
                     </p>
+                    
                     <p className='py-3 text-lg dark:font-light'>
                         My journey into programming began just over a year ago, sparking a thrilling 
                         path of discovery. The ever-evolving nature of technology and my 
