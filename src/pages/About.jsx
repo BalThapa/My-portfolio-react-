@@ -1,5 +1,6 @@
 import React from 'react';
-import Profile from '../assets/images/testprofile.jpeg';
+//import Profile from '../assets/images/testprofile.jpeg';
+import AboutPic from '../assets/images/aboutpic.jpeg';
 
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
             <h1 className='flex justify-center text-2xl lg:text-3xl uppercase font-bold mb-10 mt-20'>About me</h1>
             <div className='flex '>
                 <div>
-                    <img src={Profile} alt="img" className='w-2/5 float-right object-cover text-wrap rounded-3xl ml-10 mt-5 mb-5 md:w-2/5 lg:w-2/5' />
+                    <img src={AboutPic} alt="img" className='w-2/5 float-right object-cover text-wrap rounded-3xl ml-10 mt-5 mb-5 md:w-2/5 lg:w-2/5' />
                     <div className='lg:mt-10'>
                     <p className='py-3 text-lg dark:font-light'>
                         I'm an enthusiastic Full Stack Developer, driven by a deep passion for <span className='font-semibold dark:text-green-500'>technology
