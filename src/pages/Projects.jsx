@@ -79,6 +79,7 @@ const Projects = () => {
                     User can add the item in shopping cart and delete if not needed.'
             video={Shopping}
             link1='https://github.com/BalThapa/Shopping-app'
+            link2='https://shopping-app-beta-eight.vercel.app/'
             /> 
 
             <Card2
